@@ -8,7 +8,7 @@
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-> A Claude Code **skill** that scrapes full **job descriptions** — responsibilities & requirements — from **BOSS Zhipin (zhipin.com)**, China's largest recruiting platform.
+> A Claude Code **skill** that scrapes full **job descriptions** — responsibilities & requirements — from **BOSS Zhipin (zhipin.com)**, a Chinese online recruiting platform.
 > It drives your **real, logged-in Chrome** (not a headless browser), so it walks straight past the anti-bot verification that blocks every headless scraper. It strips hidden anti-copy watermarks, de-duplicates by job ID, and exports clean Markdown.
 
 ## ✨ What it does
@@ -38,7 +38,9 @@ Two more non-obvious traps the skill handles: infinite scroll **only** responds 
 npx skills add HeyClioo/boss-zhipin-jd-scraper
 ```
 
-Built for **Claude Code** with the [Claude Chrome extension](https://claude.ai/chrome). It drives a real browser, so it needs an interactive, logged-in Chrome session.
+Installs across the **skills** ecosystem — **Claude Code, Codex, Gemini CLI, GitHub Copilot, WorkBuddy** and other compatible agents.
+
+> **Runtime requirement:** this skill drives a *real, logged-in* browser, so it needs an agent with browser automation over **your own session** — e.g. Claude Code's [Chrome extension](https://claude.ai/chrome), or an equivalent MCP / browser tool in Codex / WorkBuddy. A **headless** browser hits the CAPTCHA wall and will not work.
 
 ## 🎯 Usage
 

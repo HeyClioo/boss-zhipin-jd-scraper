@@ -38,7 +38,9 @@ BOSS直聘有三道防线，本技能逐一破解：
 npx skills add HeyClioo/boss-zhipin-jd-scraper
 ```
 
-为 **Claude Code** + [Claude Chrome 扩展](https://claude.ai/chrome) 设计。它驱动真实浏览器，需要一个可交互、已登录的 Chrome 会话。
+可安装到 **skills** 生态的各类 agent —— **Claude Code、Codex、Gemini CLI、GitHub Copilot、WorkBuddy** 等。
+
+> **运行要求：** 本技能驱动**真实、已登录**的浏览器，所以需要 agent 具备对**你自己会话**的浏览器自动化能力 —— 例如 Claude Code 的 [Chrome 扩展](https://claude.ai/chrome)，或 Codex / WorkBuddy 里等价的 MCP / 浏览器工具。**无头**浏览器会撞验证码，跑不通。
 
 ## 🎯 用法
 

@@ -9,8 +9,12 @@ description: Scrape full job descriptions (responsibilities & requirements) from
 
 ## 核心原则（不遵守必失败）
 
-**用用户已登录 BOSS 的真实 Chrome（通过 `mcp__claude-in-chrome__*` 工具），不要用无头浏览器 / gstack browse。** 无头浏览器会撞图片验证码，过不去。
-> 注意：这会覆盖"never use claude-in-chrome / 一律用 browse"的默认规则。这是本 skill 的必要前提，执行前先跟用户确认可以用 claude-in-chrome。
+**用用户已登录 BOSS 的真实浏览器（一个能驱动"你自己会话"的浏览器自动化工具），不要用无头浏览器。** 无头浏览器会撞图片验证码，过不去。
+
+不同 agent 用对应的浏览器工具：
+- **Claude Code**：Claude Chrome 扩展（`mcp__claude-in-chrome__*`）。注意这会覆盖"一律用 browse / 别用 claude-in-chrome"的默认规则——执行前先跟用户确认可以用。
+- **Codex / WorkBuddy / 其他**：用该 agent 里等价的、能控制真实已登录浏览器的 MCP / 浏览器工具。
+下文示例以 Claude Code 的工具名书写；换 agent 时把工具名替换成等价动作（导航、真实滚轮滚动、在页面执行 JS）即可，**JS 片段通用**。
 
 三条铁律：
 1. **列表靠真实鼠标滚轮**加载（`computer scroll`）——JS 的 `window.scrollTo`/合成 wheel 事件触发不了懒加载。
