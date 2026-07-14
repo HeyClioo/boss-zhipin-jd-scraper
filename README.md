@@ -17,7 +17,7 @@
 - **Beats the anti-bot wall** by using your own logged-in browser instead of a headless one
 - **Strips watermark noise** — BOSS injects hidden `display:none` decoy words into the text; `innerText` skips them cleanly
 - **De-duplicates by `encryptJobId`** across multiple keywords and filters — one job, one record, zero false merges
-- **Title filtering** — keep product/PM roles, drop engineer/dev/algorithm roles (fully configurable)
+- **Configurable role filtering** — as an example for *AI Product Manager*, it keeps **product / project manager** roles and drops **engineer / developer / algorithm** roles. It's a one-line regex: change it to keep whatever roles you want, or turn filtering off entirely
 - **Exports Markdown** via an in-browser download, sidestepping console text-truncation on long CJK output
 
 ## 🧠 Why BOSS Zhipin is hard (and how this beats it)
@@ -50,20 +50,22 @@ Installs across the **skills** ecosystem — **Claude Code, Codex, Gemini CLI, G
 
 The skill collects jobs by scrolling the search page, filters to the roles you want, scrapes each detail page, and hands you a Markdown file.
 
-## ⚙️ Filter codes
+## ⚙️ Filters — works for any role & city
 
-BOSS Zhipin encodes filters in the search URL: `?city=&jobType=&experience=&degree=&query=`
+Everything is driven by the search-page URL, so the skill handles **any city, any role, any filter combination**. The codes below are only the example this README uses (*AI Product Manager · Beijing*). To get codes for **your** search, apply the filters on BOSS Zhipin in the browser and read them straight off the resulting URL.
 
-| Filter | Value |
+`?city=&jobType=&experience=&degree=&query=`
+
+| Param | Example value (AI PM · Beijing) |
 |---|---|
-| City · Beijing | `city=101010100` |
-| Experience · any | `experience=101` |
-| Experience · 1–3 yrs | `experience=104` |
-| Degree · Bachelor | `degree=203` |
-| Degree · Master | `degree=204` |
-| Degree · any | *omit* |
-| Job type · AI Product Manager | `jobType=1901` |
-| Keyword | `query=<term>` *(required for results)* |
+| `city` · Beijing | `101010100` |
+| `experience` · any | `101` |
+| `experience` · 1–3 yrs | `104` |
+| `degree` · Bachelor | `203` |
+| `degree` · Master | `204` |
+| `degree` · any | *omit* |
+| `jobType` · AI Product Manager | `1901` |
+| `query` · keyword | `<term>` *(required for results)* |
 
 ## 📊 Output
 
