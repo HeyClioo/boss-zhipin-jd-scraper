@@ -4,7 +4,8 @@
 
 <p>
   <img alt="skill" src="https://img.shields.io/badge/类型-agent%20skill-6f42c1">
-  <img alt="platform" src="https://img.shields.io/badge/Claude%20Code-Chrome%20扩展-2ea44f">
+  <img alt="agents" src="https://img.shields.io/badge/适配-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20WorkBuddy-2ea44f">
+  <img alt="browser" src="https://img.shields.io/badge/需要-真实已登录浏览器-orange">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
@@ -45,7 +46,7 @@ npx skills add HeyClioo/boss-zhipin-jd-scraper
 
 ## 🎯 用法
 
-1. 装好 Claude Chrome 扩展，并在该 Chrome 里登录 BOSS直聘。
+1. 给你的 agent 配一个真实浏览器工具（如 Claude Code 的 Chrome 扩展），并在该浏览器里登录 BOSS直聘。
 2. 对 agent 说：**"抓取 BOSS直聘上 &lt;城市&gt; 的 &lt;岗位&gt; 职位描述"** —— 或直接给它一个 `zhipin.com` 搜索页 URL。
 3. 首次弹验证码时你手动过一下，之后让技能自己跑。
 

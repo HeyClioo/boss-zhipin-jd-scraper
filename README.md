@@ -4,7 +4,8 @@
 
 <p>
   <img alt="skill" src="https://img.shields.io/badge/type-agent%20skill-6f42c1">
-  <img alt="platform" src="https://img.shields.io/badge/Claude%20Code-Chrome%20extension-2ea44f">
+  <img alt="agents" src="https://img.shields.io/badge/agents-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20WorkBuddy-2ea44f">
+  <img alt="browser" src="https://img.shields.io/badge/requires-real%20logged--in%20browser-orange">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
@@ -45,7 +46,7 @@ Installs across the **skills** ecosystem — **Claude Code, Codex, Gemini CLI, G
 
 ## 🎯 Usage
 
-1. Install the Claude Chrome extension and sign in to BOSS Zhipin in that Chrome.
+1. Give your agent a real-browser tool (e.g. Claude Code's Chrome extension) and sign in to BOSS Zhipin in that browser.
 2. Tell the agent: **"scrape BOSS Zhipin job descriptions for &lt;role&gt; in &lt;city&gt;"** — or hand it a `zhipin.com` search URL.
 3. When the CAPTCHA appears the first time, solve it yourself, then let the skill run.
 
@@ -75,8 +76,8 @@ A single Markdown file, one section per job:
 ```markdown
 ## 1. AI Product Manager
 - Company: ByteDance (Internet · 10,000+)
-- Salary: 30-60K·15 months
-- Experience / Degree: 1-3 yrs / Bachelor
+- Salary: 30–60K/mo · 15-month pay
+- Experience / Degree: 1–3 yrs / Bachelor
 - Location: Beijing · Haidian
 - Link: https://www.zhipin.com/job_detail/xxxx.html
 
