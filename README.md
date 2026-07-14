@@ -18,6 +18,7 @@
 - **Strips watermark noise** — BOSS injects hidden `display:none` decoy words into the text; `innerText` skips them cleanly
 - **De-duplicates by `encryptJobId`** across multiple keywords and filters — one job, one record, zero false merges
 - **Configurable role filtering** — as an example for *AI Product Manager*, it keeps **product / project manager** roles and drops **engineer / developer / algorithm** roles. It's a one-line regex: change it to keep whatever roles you want, or turn filtering off entirely
+- **Runs in rounds** — collect ~30, scroll, repeat; scrape in batches with checkpoints, so long runs stay resumable and never lose progress
 - **Exports Markdown** via an in-browser download, sidestepping console text-truncation on long CJK output
 
 ## 🧠 Why BOSS Zhipin is hard (and how this beats it)
