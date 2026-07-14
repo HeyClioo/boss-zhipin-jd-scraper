@@ -8,8 +8,8 @@
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-> 一个 Claude Code **技能**，从 **BOSS直聘（zhipin.com）** 批量抓取职位的**岗位职责 / 任职要求**全文。
-> 它驱动你**已登录的真实 Chrome**（不是无头浏览器），因此能绕过拦住所有无头爬虫的安全验证；同时去掉隐藏的反爬水印词，按职位 ID 去重，导出干净的 Markdown。
+> 一个 **Claude Code / Codex / WorkBuddy 技能**，从 **BOSS直聘（zhipin.com，一个中国在线招聘平台）** 批量抓取职位的**岗位职责 / 任职要求**全文。
+> 它驱动你**已登录的真实浏览器**（不是无头浏览器），因此能绕过拦住所有无头爬虫的安全验证；同时去掉隐藏的反爬水印词，按职位 ID 去重，导出干净的 Markdown。
 
 ## ✨ 能做什么
 

@@ -8,8 +8,8 @@
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-> A Claude Code **skill** that scrapes full **job descriptions** — responsibilities & requirements — from **BOSS Zhipin (zhipin.com)**, a Chinese online recruiting platform.
-> It drives your **real, logged-in Chrome** (not a headless browser), so it walks straight past the anti-bot verification that blocks every headless scraper. It strips hidden anti-copy watermarks, de-duplicates by job ID, and exports clean Markdown.
+> A **Claude Code / Codex / WorkBuddy skill** that scrapes full **job descriptions** — responsibilities & requirements — from **BOSS Zhipin (zhipin.com)**, a Chinese online recruiting platform.
+> It drives your **real, logged-in browser** (not a headless one), so it walks straight past the anti-bot verification that blocks every headless scraper. It strips hidden anti-copy watermarks, de-duplicates by job ID, and exports clean Markdown.
 
 ## ✨ What it does
 

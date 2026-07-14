@@ -1,6 +1,6 @@
 ---
 name: boss-zhipin-jd-scraper
-description: Scrape full job descriptions (responsibilities & requirements) from BOSS Zhipin / zhipin.com. Use when the user wants to scrape or batch-collect BOSS Zhipin job postings, JDs, or recruitment data by filter. Drives a real logged-in browser via the Claude Chrome extension (NOT headless) to bypass anti-bot verification; strips watermark noise, dedupes by encryptJobId, exports Markdown. 抓取 BOSS直聘职位的岗位职责/任职要求全文，去重去水印导出 Markdown。
+description: Scrape full job descriptions (responsibilities & requirements) from BOSS Zhipin / zhipin.com. Use when the user wants to scrape or batch-collect BOSS Zhipin job postings, JDs, or recruitment data by filter. Needs a browser-automation tool that drives your real, logged-in browser (Claude Code's Chrome extension, or an equivalent in Codex / WorkBuddy) — NOT headless — to bypass anti-bot verification; strips watermark noise, dedupes by encryptJobId, exports Markdown. 抓取 BOSS直聘职位的岗位职责/任职要求全文；需用能驱动真实已登录浏览器的工具（Claude Code / Codex / WorkBuddy 等），去重去水印导出 Markdown。
 ---
 
 # BOSS直聘 职位JD 抓取
